@@ -1,0 +1,26 @@
+.main {
+  @apply flex h-screen w-full items-center justify-center;
+}
+
+.content {
+  @apply block bg-white rounded-lg container w-[50%];
+}
+
+.addTask {
+  @apply rounded-lg bg-zinc-800 px-8 py-4;
+}
+
+.addTask__text {
+  @apply mb-3 text-center text-xl font-semibold text-white;
+}
+
+.addTask__form {
+  @apply space-x-2 flex justify-center;
+}
+
+.form__item {
+  @apply rounded-lg border border-slate-600 p-1 focus:outline-none;
+}
+.form__submit {
+  @apply cursor-pointer rounded-lg bg-amber-700 px-4 py-1 text-white hover:bg-amber-800;
+}

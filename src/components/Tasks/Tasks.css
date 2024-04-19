@@ -1,0 +1,26 @@
+.task {
+  @apply px-5 py-2 flex border-t items-center justify-between mt-2;
+}
+.empty-task {
+  @apply px-5 py-2 flex items-center justify-center mt-5 mb-5;
+}
+.empty-task__name {
+  @apply text-xl text-red-500;
+}
+
+.task__info {
+  @apply block;
+}
+
+.task__name {
+  @apply text-xl;
+}
+.task__btns {
+  @apply flex space-x-3;
+}
+.btn__complete {
+  @apply p-1 rounded-lg;
+}
+.btn__delete {
+  @apply bg-amber-600 p-1 rounded-lg hover:bg-amber-700 text-white;
+}
